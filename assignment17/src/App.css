@@ -1,0 +1,36 @@
+#root{
+  background-color: #aea1a1;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 8px;
+}
+
+.product-card h3 {
+  font-size: 1.2em;
+  margin: 0 0 8px 0;
+}
+
+.product-card p {
+  font-size: 0.9em;
+  margin: 0 0 8px 0;
+  color: #555;
+}
